@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78ecf029-335c-427c-aa41-77a2dde1fd0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/testflask.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaddleOCR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/.clang_format.hook" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/.clang_format.hook" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/.pre-commit-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/.pre-commit-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/.style.yapf" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/.style.yapf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/README_cn.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/configs/rec/rec_chinese_common_train.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/configs/rec/rec_chinese_common_train.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/configs/rec/rec_chinese_reader.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/configs/rec/rec_chinese_reader.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/androidTest/java/com/baidu/paddle/lite/demo/ocr/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/assets/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/assets/labels/ppocr_keys_v1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/native.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/native.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/ocr_clipper.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/ocr_clipper.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/ocr_crnn_process.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/ocr_crnn_process.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/ocr_db_post_process.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/ocr_db_post_process.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/ocr_ppredictor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/ocr_ppredictor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/ppredictor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/ppredictor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/predictor_input.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/predictor_input.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/predictor_output.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/predictor_output.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/preprocess.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/cpp/preprocess.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/java/com/baidu/paddle/lite/demo/ocr/AppCompatPreferenceActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/java/com/baidu/paddle/lite/demo/ocr/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/java/com/baidu/paddle/lite/demo/ocr/OCRPredictorNative.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/java/com/baidu/paddle/lite/demo/ocr/OcrResultModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/java/com/baidu/paddle/lite/demo/ocr/Predictor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/java/com/baidu/paddle/lite/demo/ocr/SettingsActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/java/com/baidu/paddle/lite/demo/ocr/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/menu/menu_action_options.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/values/arrays.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/main/res/xml/settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/app/src/test/java/com/baidu/paddle/lite/demo/ocr/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/android_demo/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/docs/windows_vs2019_build.md" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/docs/windows_vs2019_build.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/clipper.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/clipper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/config.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/ocr_det.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/ocr_det.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/ocr_rec.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/ocr_rec.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/postprocess_op.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/postprocess_op.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/preprocess_op.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/preprocess_op.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/utility.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/include/utility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/readme_en.md" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/readme_en.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/clipper.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/clipper.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/config.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/config.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/ocr_det.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/ocr_det.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/ocr_rec.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/ocr_rec.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/postprocess_op.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/postprocess_op.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/preprocess_op.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/preprocess_op.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/utility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/src/utility.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/tools/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/cpp_infer/tools/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_det/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_det/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_det/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_det/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_det/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_det/module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_det/params.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_det/params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_rec/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_rec/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_rec/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_rec/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_rec/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_rec/module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_rec/params.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_rec/params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_system/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_system/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_system/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_system/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_system/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_system/module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_system/params.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/hubserving/ocr_system/params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/imgs/cpp_infer_pred_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/imgs/demo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/AppDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/AppDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/AppDelegate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Assets.xcassets/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Assets.xcassets/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Base.lproj/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/BoxLayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/BoxLayer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/BoxLayer.m" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/BoxLayer.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Helpers.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Helpers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Helpers.m" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Helpers.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/OcrData.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/OcrData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/OcrData.m" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/OcrData.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/ViewController.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/ViewController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/ViewController.mm" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/ViewController.mm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/label_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/label_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/ocr.png" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/ocr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/pdocr/ocr_clipper.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/pdocr/ocr_clipper.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/pdocr/ocr_clipper.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/pdocr/ocr_clipper.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/pdocr/ocr_crnn_process.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/pdocr/ocr_crnn_process.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/pdocr/ocr_crnn_process.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/pdocr/ocr_crnn_process.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/pdocr/ocr_db_post_process.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/pdocr/ocr_db_post_process.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/pdocr/ocr_db_post_process.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/pdocr/ocr_db_post_process.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/timer.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/ios_demo/ocr_demo/timer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/crnn_process.cc" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/crnn_process.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/crnn_process.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/crnn_process.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/db_post_process.cc" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/db_post_process.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/db_post_process.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/db_post_process.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/ocr_db_crnn.cc" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/ocr_db_crnn.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/prepare.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/prepare.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/readme_en.md" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/lite/readme_en.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/det_local_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/det_local_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/det_web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/det_web_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/ocr_local_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/ocr_local_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/ocr_web_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/ocr_web_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/ocr_web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/ocr_web_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/rec_local_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/rec_local_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/rec_web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/deploy/pdserving/rec_web_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/ArT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/CASIA_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/LSVT_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/LSVT_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/captcha_demo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/ccpd_demo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/ch_doc1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/ch_doc2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/ch_doc3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/ch_street_rec_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/ch_street_rec_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/cmb_demo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/labelimg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/labelme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/nist_demo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/rctw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/datasets/roLabelImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/FAQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/benchmark.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/config.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/customize.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/data_annotation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/data_synthesis.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/datasets.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/detection.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/handwritten_datasets.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/inference.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/installation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/quickstart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/recognition.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/reference.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/serving.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/tricks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/update.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/vertical_and_multilingual_datasets.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_ch/visualization.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/FAQ_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/benchmark_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/config_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/customize_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/data_annotation_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/data_synthesis_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/datasets_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/detection_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/handwritten_datasets_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/inference_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/installation_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/quickstart_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/recognition_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/reference_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/serving_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/tricks_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/update_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/vertical_and_multilingual_datasets_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/doc_en/visualization_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_en/img_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_en/img_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_en/img_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_en/img_195.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/chinese_db_crnn_server/en_paper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/det_res_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/det_res_img_10_db.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/det_res_img_10_east.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/img_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results/img_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_results_vis2/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words/ch/word_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words/ch/word_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words/ch/word_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words/ch/word_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words/ch/word_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words/en/word_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words/en/word_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words/en/word_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words/en/word_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words/en/word_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words_en/word_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words_en/word_116.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words_en/word_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words_en/word_201.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words_en/word_308.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words_en/word_336.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words_en/word_401.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words_en/word_461.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words_en/word_52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/imgs_words_en/word_545.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/joinus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/ocr-android-easyedge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/simfang.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/doc/tricks/long_text_examples.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/data/det/data_augment.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/data/det/data_augment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/data/det/dataset_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/data/det/dataset_traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/data/det/db_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/data/det/db_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/data/det/make_border_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/data/det/make_border_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/data/det/make_shrink_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/data/det/make_shrink_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/data/det/random_crop_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/data/det/random_crop_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/modeling/heads/det_db_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/modeling/heads/det_db_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/modeling/losses/det_basic_loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/modeling/losses/det_basic_loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/db_postprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/db_postprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/.ycm_extra_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/.ycm_extra_conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/adaptor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/adaptor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/clipper/clipper.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/clipper/clipper.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/clipper/clipper.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/clipper/clipper.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/attr.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/attr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/buffer_info.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/buffer_info.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/cast.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/cast.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/chrono.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/chrono.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/class_support.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/class_support.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/complex.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/complex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/descr.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/descr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/eigen.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/eigen.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/embed.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/embed.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/eval.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/eval.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/functional.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/functional.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/numpy.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/numpy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/operators.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/operators.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/options.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/options.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/pybind11.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/pybind11.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/pytypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/pytypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/stl.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/stl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/stl_bind.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/stl_bind.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/typeid.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/include/pybind11/typeid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/lanms.h" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/lanms/lanms.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/locality_aware_nms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/postprocess/locality_aware_nms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/utils/ic15_dict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/utils/ic15_dict.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/utils/ppocr_keys_v1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/ppocr/utils/ppocr_keys_v1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/requirments.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/eval_utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/eval_utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/eval_utils/eval_det_iou.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/eval_utils/eval_det_iou.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/eval_utils/eval_det_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/eval_utils/eval_det_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/eval_utils/eval_rec_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/eval_utils/eval_rec_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/export_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/export_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/infer/predict_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/infer/predict_system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/infer/utility.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/infer/utility.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/test_hubserving.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrflaskserve/PaddleOCR/tools/test_hubserving.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/upload_ok.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload_pictures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadzip.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hAtaxXQ9dqkD777MiKuD44X11y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="predict_system" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testflask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PaddleOCR/tools/infer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PaddleOCR/tools/infer/predict_system.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testflask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="upload_pictures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testflask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/upload_pictures.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.predict_system" />
+        <item itemvalue="Python.upload_pictures" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78ecf029-335c-427c-aa41-77a2dde1fd0f" name="Default Changelist" comment="" />
+      <created>1599465791631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599465791631</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="769" y="393" width="424" height="484" key="FileChooserDialogImpl" timestamp="1599472316765">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="769" y="393" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1599472316765" />
+    <state width="1826" height="146" key="GridCell.Tab.0.bottom" timestamp="1599557697892">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1826" height="146" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1599557697892" />
+    <state width="1826" height="146" key="GridCell.Tab.0.center" timestamp="1599557697892">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1826" height="146" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1599557697892" />
+    <state width="1826" height="146" key="GridCell.Tab.0.left" timestamp="1599557697891">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1826" height="146" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1599557697891" />
+    <state width="1826" height="146" key="GridCell.Tab.0.right" timestamp="1599557697892">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1826" height="146" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1599557697892" />
+    <state x="475" y="187" key="SettingsEditor" timestamp="1599476954081">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="475" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1599476954081" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599481841219">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1599481841219" />
+  </component>
+</project>
